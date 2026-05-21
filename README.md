@@ -519,27 +519,7 @@ php artisan cache:clear
 
 ---
 
-# 📸 Vista previa
 
-## 🖥️ Interfaces del sistema
-
-<div align="center">
-
-### 📊 Dashboard administrativo
-![Dashboard](https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200)
-
-### 🏠 Gestión de propiedades
-![Property](https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200)
-
-### 💰 Seguimiento de pagos
-![Payments](https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200)
-
-### 👥 Comunicación residencial
-![Communication](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200)
-
-</div>
-
----
 
 # 👥 Roles del sistema
 
@@ -613,7 +593,7 @@ git push origin feature/nueva-funcionalidad
 
 <div align="center">
 
-## Full Stack Laravel Developer
+## Isai Reyes - Full Stack Laravel Developer
 
 Desarrollador apasionado por plataformas residenciales, sistemas administrativos y arquitecturas modernas 🚀
 
