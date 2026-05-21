@@ -1,39 +1,389 @@
+<div align="center">
+
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/1046/1046857.png" />
+
 # 🏡 HomeRoom
 
-HomeRoom is a digital platform designed to streamline the financial and organizational tasks involved in housing and rental management. Built with both landlords and tenants in mind, HomeRoom will simplifies rental processes by offering a centralized system to handle administrative responsibilities, payment tracking, and communication between parties.
+### Plataforma moderna para gestión de viviendas, alquileres y administración residencial ⚡
 
-For landlords, HomeRoom provides an efficient way to manage households, monitor payment statuses, and oversee tenant activity. For tenants, it offers an accessible tool to track monthly dues, view rental history, and stay updated with household announcements.
+<p align="center">
+  <b>HomeRoom</b> es una plataforma digital diseñada para simplificar la administración financiera y organizacional de viviendas y propiedades en renta, conectando propietarios e inquilinos en un entorno centralizado y eficiente.
+</p>
 
-Through an intuitive and well-organized interface, HomeRoom fosters seamless interaction between landlords and tenants. It promotes clear communication, reduces the complexity of managing rentals, and ultimately contributes to a more transparent and efficient housing experience for everyone involved.
+<p align="center">
+  <img src="https://img.shields.io/badge/Laravel-Framework-FF2D20?style=for-the-badge&logo=laravel&logoColor=white">
+  <img src="https://img.shields.io/badge/TailwindCSS-Frontend-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white">
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white">
+  <img src="https://img.shields.io/badge/Housing-Management-16A34A?style=for-the-badge">
+</p>
 
-## 🚀 Getting Started
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-vista-previa">Vista previa</a>
+</p>
 
-Follow these steps to get the project running locally.
-Laravel Herd is the recommended environment for this project, but alternatives are included below.
+</div>
 
 ---
 
-### 1. Set Up the Project Directory
+# 🏡 Acerca del proyecto
 
-If you're using **Laravel Herd**, run:
+**HomeRoom** es una plataforma enfocada en la administración moderna de viviendas y alquileres, diseñada para optimizar la comunicación, organización y control financiero entre propietarios e inquilinos.
+
+El sistema fue desarrollado para:
+
+- 🏠 Gestionar propiedades y hogares
+- 💰 Monitorear pagos y rentas
+- 👥 Facilitar comunicación entre usuarios
+- 📊 Administrar actividades residenciales
+- 📅 Organizar obligaciones mensuales
+- ⚡ Automatizar procesos administrativos
+- 🌐 Centralizar la información del alquiler
+
+La plataforma proporciona una experiencia intuitiva y transparente para mejorar la gestión de viviendas y relaciones de arrendamiento.
+
+---
+
+# ✨ Características
+
+## 🏠 Gestión de propiedades
+
+- 🏡 Administración de viviendas
+- 📋 Gestión de hogares
+- 📊 Seguimiento residencial
+- ⚡ Organización centralizada
+- 📅 Control administrativo
+
+---
+
+## 💰 Gestión de pagos
+
+- 💵 Seguimiento de rentas
+- 📈 Historial de pagos
+- ⚡ Estados financieros
+- 🧾 Registro de transacciones
+- 📊 Monitoreo de adeudos
+
+---
+
+## 👥 Gestión de usuarios
+
+- 👤 Administración de propietarios
+- 🏠 Gestión de inquilinos
+- 📞 Información de contacto
+- ⚡ Control de actividad
+- 🔐 Acceso seguro
+
+---
+
+## 📡 Comunicación residencial
+
+- 📢 Anuncios del hogar
+- 💬 Comunicación entre usuarios
+- 📅 Recordatorios importantes
+- ⚡ Notificaciones administrativas
+- 📋 Historial de mensajes
+
+---
+
+## 📊 Dashboard administrativo
+
+- 📈 Estadísticas financieras
+- 🏠 Estado de propiedades
+- 👥 Actividad de inquilinos
+- 💰 Reportes de pagos
+- ⚡ Panel dinámico
+
+---
+
+## 🔐 Seguridad y administración
+
+- 🔒 Gestión de sesiones
+- ⚡ Protección de accesos
+- 🛡️ Validación de usuarios
+- 📊 Roles administrativos
+- 🌐 Operaciones seguras
+
+---
+
+# 👨‍💻 Módulos del sistema
+
+## 🏠 Property Management Module
+
+Sistema de administración de propiedades.
+
+### Funcionalidades:
+
+- 🏡 Gestión de viviendas
+- 📋 Organización residencial
+- 📊 Control administrativo
+- ⚡ Gestión de hogares
+- 📅 Seguimiento operativo
+
+---
+
+## 💰 Payment Tracking Module
+
+Módulo financiero y de pagos.
+
+### Funcionalidades:
+
+- 💵 Gestión de rentas
+- 📈 Historial financiero
+- ⚡ Seguimiento de pagos
+- 🧾 Registro de movimientos
+- 📊 Estados financieros
+
+---
+
+## 👥 Tenant & Landlord Module
+
+Gestión de usuarios residenciales.
+
+### Funcionalidades:
+
+- 👤 Administración de propietarios
+- 🏠 Gestión de inquilinos
+- 📞 Información personal
+- ⚡ Actividad del usuario
+- 🔐 Gestión de acceso
+
+---
+
+## 📡 Communication Module
+
+Sistema de comunicación residencial.
+
+### Funcionalidades:
+
+- 📢 Anuncios
+- 💬 Comunicación interna
+- 📅 Recordatorios
+- ⚡ Notificaciones
+- 📋 Seguimiento de mensajes
+
+---
+
+## 📊 Analytics & Reports Module
+
+Módulo analítico y administrativo.
+
+### Funcionalidades:
+
+- 📈 Reportes financieros
+- 📊 Estadísticas del sistema
+- 💰 Métricas operativas
+- ⚡ Dashboard dinámico
+- 📄 Reportes exportables
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## ⚙️ Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,js,tailwind" />
+</p>
+
+- HTML5
+- CSS3
+- JavaScript
+- Tailwind CSS
+- Blade Components
+- Responsive Design
+
+---
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=php,laravel" />
+</p>
+
+- PHP 8+
+- Laravel 12
+- Arquitectura MVC
+- Laravel Blade
+- Artisan CLI
+- APIs y controladores
+
+---
+
+## 🗄️ Base de datos
+
+<p>
+  <img src="https://skillicons.dev/icons?i=sqlite,mysql" />
+</p>
+
+- SQLite
+- MySQL
+- Persistencia relacional
+- Migraciones
+- Seeders
+- Gestión de datos
+
+---
+
+## 🔐 Seguridad y autenticación
+
+<p>
+  <img src="https://skillicons.dev/icons?i=laravel" />
+</p>
+
+- Laravel Authentication
+- Gestión de sesiones
+- Middleware de seguridad
+- Protección CSRF
+- Validaciones del sistema
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,npm" />
+</p>
+
+- Git
+- GitHub
+- VS Code
+- npm
+- Composer
+- Laravel Herd
+
+---
+
+# 📂 Estructura del proyecto
 
 ```bash
-cd ~/Herd
+HomeRoom/
+│
+├── app/
+│   ├── Http/
+│   ├── Models/
+│   ├── Services/
+│   ├── Console/
+│   └── Providers/
+│
+├── database/
+│   ├── migrations/
+│   ├── seeders/
+│   └── database.sqlite
+│
+├── resources/
+│   ├── views/
+│   ├── css/
+│   └── js/
+│
+├── routes/
+├── storage/
+├── public/
+├── tests/
+├── composer.json
+├── package.json
+├── README.md
+└── LICENSE
 ```
 
-Otherwise, use any location you prefer:
+---
 
-```bash
-cd <your-project-folder>
+# 🏗️ Arquitectura del sistema
+
+## ⚡ Arquitectura empresarial
+
+```text
+Tenant / Landlord → Laravel Frontend → Application Logic → SQLite Database
 ```
 
-Then clone the repository:
+---
+
+## 🔄 Flujo del sistema
+
+```text
+Usuario → Vivienda → Pago → Seguimiento → Comunicación → Reportes
+```
+
+---
+
+# 📊 Funcionalidades principales
+
+## 🏠 Viviendas
+
+- Gestión de hogares
+- Administración de propiedades
+- Seguimiento residencial
+- Control organizacional
+
+---
+
+## 💰 Finanzas
+
+- Gestión de pagos
+- Historial financiero
+- Control de adeudos
+- Reportes administrativos
+
+---
+
+## 👥 Usuarios
+
+- Gestión de propietarios
+- Administración de inquilinos
+- Comunicación interna
+- Actividad residencial
+
+---
+
+## 📈 Administración
+
+- Dashboard dinámico
+- Métricas operativas
+- Reportes financieros
+- Control del sistema
+
+---
+
+# 🔐 Seguridad
+
+## 🛡️ Protección del sistema
+
+- 🔒 Gestión de sesiones
+- ⚡ Protección CSRF
+- 🛡️ Middleware de seguridad
+- 🚫 Restricción de accesos
+- 📋 Validaciones automáticas
+- 🔐 Operaciones protegidas
+
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+- PHP 8+
+- Composer
+- Node.js
+- npm
+- SQLite o MySQL
+- Laravel Herd (opcional)
+
+---
+
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
 
 ```bash
 git clone https://github.com/COMP-016-Web-Development-Group-1/HomeRoom.git
 ```
 
-After cloning, make sure you enter the project folder:
+---
+
+## 2️⃣ Entrar al proyecto
 
 ```bash
 cd HomeRoom
@@ -41,7 +391,7 @@ cd HomeRoom
 
 ---
 
-### 2. Install Dependencies
+## 3️⃣ Instalar dependencias
 
 ```bash
 composer install
@@ -51,87 +401,40 @@ npm run build
 
 ---
 
-### 3. Environment Configuration
-
-Copy the example `.env` file:
+## 4️⃣ Configurar entorno
 
 ```bash
 cp .env.example .env
 ```
 
-Then open `.env` and fill in the following fields:
+---
+
+## 5️⃣ Configurar variables
 
 ```env
-# Our custom environment variables
 DEFAULT_LANDLORD_EMAIL=landlord@gmail.com
-```
-
-> Note:
-> By default, we’re using log-only email for local development. This means emails won’t actually be sent. They’ll just be written to the log file located at: `storage/logs/laravel.log`
-
-If we ever need to showcase real email sending (e.g. for demo or production), then:
-
-1. **Comment out** the log mailer block:
-
-    ```env
-    # MAIL_MAILER=log
-    # MAIL_SCHEME=null
-    # MAIL_HOST=127.0.0.1
-    # MAIL_PORT=2525
-    # MAIL_USERNAME=null
-    # MAIL_PASSWORD=null
-    # MAIL_FROM_ADDRESS="hello@example.com"
-    # MAIL_FROM_NAME="${APP_NAME}"
-    ```
-
-2. **Uncomment** the Gmail SMTP block:
-    ```env
-    MAIL_MAILER=smtp
-    MAIL_HOST=smtp.gmail.com
-    MAIL_PORT=465
-    MAIL_USERNAME=
-    MAIL_PASSWORD=
-    MAIL_ENCRYPTION=tls
-    MAIL_FROM_ADDRESS=
-    MAIL_FROM_NAME="${APP_NAME}"
-    ```
-    We’ll provide the Gmail credentials privately, so you don’ need to create a Gmail account.
-
-If you're using Laravel Herd, make sure to set:
-
-```env
 APP_URL=http://homeroom.test
 ```
 
-Otherwise, keep the default:
+---
 
-### 4. Create the SQLite Database
+## 6️⃣ Crear base de datos SQLite
 
-This project uses SQLite for local development.
-
-#### Mac/Linux or Git Bash:
+### Linux / Mac
 
 ```bash
 touch database/database.sqlite
 ```
 
-#### PowerShell:
+### PowerShell
 
 ```powershell
 New-Item -ItemType File -Path "database/database.sqlite"
 ```
 
-#### CMD:
-
-```cmd
-type NUL > database\database.sqlite
-```
-
-Alternatively, you can **manually create a blank file** named `database.sqlite` in the `database` directory.
-
 ---
 
-### 5. Generate App Key
+## 7️⃣ Generar key
 
 ```bash
 php artisan key:generate
@@ -139,7 +442,7 @@ php artisan key:generate
 
 ---
 
-### 6. Link Storage
+## 8️⃣ Link de almacenamiento
 
 ```bash
 php artisan storage:link
@@ -147,7 +450,7 @@ php artisan storage:link
 
 ---
 
-### 7. Migrate and Seed the Database
+## 9️⃣ Ejecutar migraciones
 
 ```bash
 php artisan migrate --seed
@@ -155,49 +458,33 @@ php artisan migrate --seed
 
 ---
 
-### 8. Serve the Application
+## 🔟 Ejecutar aplicación
 
-If you're using **Laravel Herd**, simply visit:
+### Laravel Herd
 
-```
+```text
 http://homeroom.test
 ```
 
-If you're **not using Herd**, start the server with:
+### Servidor local
 
 ```bash
 php artisan serve
 ```
 
-Then visit the URL provided in the terminal, e.g.:
-
-```
-http://127.0.0.1:8000
-```
-
-> Note: the default password for the landlord is `password`
-
 ---
 
-## 🛠️ Developing
+# 🧪 Desarrollo
 
-Common tasks while working on the project:
-
-### Recompile Frontend Assets
-
-Use this to build and watch for changes during development:
+## ⚡ Ejecutar modo desarrollo
 
 ```bash
 composer run dev
 ```
 
-> Note: This runs `npm run dev` internally, but keeps everything Laravel-flavored.
-
 ---
 
-### Reset the Database
-
-Use this to wipe and re-seed your database:
+## 🔄 Reiniciar base de datos
 
 ```bash
 php artisan migrate:fresh --seed
@@ -205,7 +492,7 @@ php artisan migrate:fresh --seed
 
 ---
 
-### Run Tests
+## 🧪 Ejecutar pruebas
 
 ```bash
 php artisan test
@@ -213,28 +500,15 @@ php artisan test
 
 ---
 
-### Format Code
+## 🎨 Formatear código
 
 ```bash
 vendor/bin/pint
 ```
 
-### Clean Up Temporary Files in Storage
+---
 
-```bash
-php artisan app:clean-temp-storage [public/private]
-```
-
-### Clean Up Files in Storage
-
-```bash
-php artisan app:clean-storage [public/private]
-```
-
-> Note: `[]` indicates a choice
-
-### Clearing Cache
-To clear various caches during development, run:
+## 🧹 Limpiar caché
 
 ```bash
 php artisan config:clear
@@ -243,101 +517,126 @@ php artisan view:clear
 php artisan cache:clear
 ```
 
-> Tip: If you encounter unexpected behavior, clearing these caches often resolves common issues.
+---
 
-When deploying to production, rebuild the caches for better performance:
+# 📸 Vista previa
 
-```bash
-php artisan config:cache
-php artisan route:cache
-php artisan view:cache
-php artisan optimize
-```
+## 🖥️ Interfaces del sistema
+
+<div align="center">
+
+### 📊 Dashboard administrativo
+![Dashboard](https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1200)
+
+### 🏠 Gestión de propiedades
+![Property](https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=1200)
+
+### 💰 Seguimiento de pagos
+![Payments](https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=1200)
+
+### 👥 Comunicación residencial
+![Communication](https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200)
+
+</div>
 
 ---
 
-## 🤝 Contributing
+# 👥 Roles del sistema
 
-### Contribution Guide
+| Rol | Nivel |
+|---|---|
+| 👑 Landlord | Gestión completa |
+| 🏠 Tenant | Gestión básica |
+| 📊 Admin | Administración |
+| 👨‍💼 Manager | Supervisión |
+| ⚡ System | Automatización |
 
-1. Ensure you're on the latest `main` branch:
+---
 
-    ```bash
-    git checkout main
-    git pull origin main
-    ```
+# 🧠 Objetivos del proyecto
 
-2. Create a new branch:
+## 🎯 Aprendizaje y arquitectura
 
-    ```bash
-    git checkout -b <type>/<short-task-desc>
-    ```
+- Desarrollo Full Stack
+- Sistemas residenciales
+- Gestión financiera
+- Arquitectura Laravel
+- Administración de viviendas
+- Comunicación organizacional
+- Plataformas escalables
 
-    **Examples:**
+---
 
-    - `feat/login-form`
-    - `fix/navbar-alignment`
-    - `docs/update-readme`
+# 🚧 Roadmap
 
-    **Types:**
+## 🔮 Próximas mejoras
 
-    - `feat` → New feature
-    - `fix` → Bug fix
-    - `refactor` → Code clean-up
-    - `chore` → Config or dependency update
-    - `docs` → Documentation changes
+- 📱 Aplicación móvil
+- ☁️ Cloud deployment
+- 🔔 Notificaciones push
+- 🤖 IA para análisis financiero
+- 📊 Dashboard avanzado
+- 🌐 Multi-language support
+- 💳 Integración de pagos online
 
-3. Confirm your current branch:
+---
 
-    ```bash
-    git branch
-    ```
+# 🤝 Contribuciones
 
-4. Commit your work:
+Las contribuciones son bienvenidas ❤️
 
-    ```bash
-    git add -A
-    git commit -m "<type>: <short-description>"
-    ```
+## Cómo contribuir
 
-5. Push to GitHub:
+1. Fork del proyecto
 
-    ```bash
-    git push origin <your-branch-name>
-    ```
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
 
-6. Open a Pull Request:
+2. Commit
 
-    - Go to: [GitHub Pull Requests](https://github.com/COMP-016-Web-Development-Group-1/HomeRoom/pulls)
-    - Base: `main`, Compare: your branch
-    - Add a clear title and description
-    - ✅ **Make sure your PR passes all checks**  
-      (Code style via `lint.yml`, tests via `pest.yml`)
-    - If any checks don’t pass, just push your fixes. GitHub will re-run them automatically.
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
 
-7. **Notify the team**
+3. Push
 
-    Let the team know in the Messenger group chat once your PR is ready or if you need help.
+```bash
+git push origin feature/nueva-funcionalidad
+```
 
-## 📚 Resources & Documentation
+4. Pull Request 🚀
 
-Helpful references for understanding and contributing to the project:
+---
 
-### General
+# 👨‍💻 Desarrollador
 
--   [Laravel Documentation](https://laravel.com/docs) _(Look for the Basics section)_
--   [Everything You Need to Know About Laravel in 30 Minutes](https://www.youtube.com/watch?v=e7z6KJkGhmg)
--   [From Blank to Blog With Laravel in 10 Minutes](https://www.youtube.com/watch?v=Miea-1jTYl0)
+<div align="center">
 
-### Frontend
+## Full Stack Laravel Developer
 
--   [Creating Laravel Blade Component: Step-By-Step](https://www.youtube.com/watch?v=kfvLppwhmgQ)
--   [Laravel Blade Directives](https://kritimyantra.com/blogs/laravel-12-blade-directives-from-beginner-to-advanced)
--   [Tailwind Documentation](https://tailwindcss.com/)
--   [Phosphor Icons](https://phosphoricons.com/)
+Desarrollador apasionado por plataformas residenciales, sistemas administrativos y arquitecturas modernas 🚀
 
-### Backend
+</div>
 
--   [Laravel Controllers](https://laravel.com/docs/12.x/controllers)
--   [Laravel Authorization](https://laravel.com/docs/12.x/authorization)
--   [Laravel Routing](https://laravel.com/docs/12.x/routing)
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto open source orientado al aprendizaje de sistemas de administración residencial y plataformas modernas de alquileres.
+
+---
+
+<div align="center">
+
+### 🏡 HomeRoom — gestión inteligente para viviendas y alquileres ⚡
+
+</div>
