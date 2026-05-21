@@ -260,7 +260,7 @@ Módulo analítico y administrativo.
 # 📂 Estructura del proyecto
 
 ```bash
-HomeRoom/
+PlataformaGestionViviendasAlquileresResidencias/
 │
 ├── app/
 │   ├── Http/
@@ -378,7 +378,7 @@ Usuario → Vivienda → Pago → Seguimiento → Comunicación → Reportes
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/COMP-016-Web-Development-Group-1/HomeRoom.git
+git clone https://github.com/isairey/PlataformaGestionViviendasAlquileresResidencias.git
 ```
 
 ---
@@ -386,7 +386,7 @@ git clone https://github.com/COMP-016-Web-Development-Group-1/HomeRoom.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd HomeRoom
+cd PlataformaGestionViviendasAlquileresResidencias
 ```
 
 ---
