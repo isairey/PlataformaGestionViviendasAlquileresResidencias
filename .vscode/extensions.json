@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "DEVSENSE.phptools-vscode",
+        "laravel.vscode-laravel",
+        "shufo.vscode-blade-formatter",
+        "amiralizadeh9480.laravel-extra-intellisense",
+        "bradlc.vscode-tailwindcss",
+        "EditorConfig.EditorConfig",
+        "esbenp.prettier-vscode",
+
+        // Optionals
+        "usernamehw.errorlens"
+    ]
+}

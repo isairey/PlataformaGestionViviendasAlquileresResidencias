@@ -1,0 +1,7 @@
+{
+    "[php]": {
+        "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
+    },
+    "php.inlayHints.parameters.enabled": false,
+    "git.autofetch": true
+}

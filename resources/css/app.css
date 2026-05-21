@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+@import "tailwindcss";
+@import "flowbite/src/themes/default";
+
+/* layer(base); */
+
+@plugin '@tailwindcss/forms';
+@plugin "flowbite/plugin";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source "../../node_modules/flowbite";
+@source "../../node_modules/flowbite-datepicker";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-sans: Figtree, ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+    --font-outfit: Outfit, ui-sans-serif, system-ui, sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
+
+    --animate-shrink: shrink 3.2s linear forwards;
+
+    --color-primary-50: #f7fee7;
+    --color-primary-100: #ecfccb;
+    --color-primary-200: #d9f99d;
+    --color-primary-300: #bef264;
+    --color-primary-400: #a3e635;
+    --color-primary-500: #84cc16;
+    --color-primary-600: #65a30d;
+    --color-primary-700: #4d7c0f;
+    --color-primary-800: #3f6212;
+    --color-primary-900: #365314;
+    --color-primary-950: #1a2e05;
+
+    @keyframes shrink {
+        0% {
+            width: 100%;
+        }
+        100% {
+            width: 0%;
+        }
+    }
+}
+
+@utility table-search {
+    @layer base {
+        @apply bg-gray-50 border border-gray-300 text-gray-900 rounded-md focus:ring-lime-600 focus:border-lime-600 block w-full;
+    }
+}
+
+@utility table-selector {
+    @layer base {
+        @apply bg-gray-50 text-sm border border-gray-300 text-gray-900 rounded-md focus:ring-lime-600 focus:border-lime-600 inline me-1;
+    }
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+    *,
+    ::after,
+    ::before,
+    ::backdrop,
+    ::file-selector-button {
+        border-color: var(--color-gray-200, currentcolor);
+    }
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+@view-transition {
+    navigation: auto;
+}
+
+@media screen and (min-width: 640px) {
+    @media not (prefers-reduced-motion: reduce) {
+        #view-transition-slide {
+            view-transition-name: view-transition-slide;
+        }
+    }
+}
+
+::view-transition-old(view-transition-slide) {
+    animation: slideOutLeft 0.5s ease forwards;
+}
+
+::view-transition-new(view-transition-slide) {
+    animation: slideInRight 0.5s ease forwards;
+}
+
+/* Keyframes */
+@keyframes slideOutLeft {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(100vw);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100vw);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
